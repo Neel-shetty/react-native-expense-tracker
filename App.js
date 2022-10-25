@@ -50,6 +50,7 @@ function ExpensesOverview() {
             <Ionicons name="hourglass" color={color} size={26} />
           ),
           tabBarLabel: "Recent",
+          title: 'Recent Expenses'
         }}
       />
       {/*<Tab.Screen
@@ -81,6 +82,7 @@ function ExpensesOverview() {
             <Ionicons name="file-tray-outline" color={color} size={26} />
           ),
           tabBarLabel: "All Expenses",
+          title: 'All Expenses'
         }}
       />
     </Tab.Navigator>
